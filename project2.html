@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<style>
+
+    body{
+           width:60%;
+           
+           border: 1px solid hsl(218,28%,13%);
+           background-color: hsl(218,28%,13%);
+           background-image: url();
+           
+
+           
+    }
+    
+    .navbar{
+       width: 165%;
+       background-color: hsl(217,28%,15%);
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .navbar ul li{
+        display: inline-block;
+        list-style: none;
+        position: relative;
+        
+    }
+    .navbar ul li:before{
+            content: '';
+            height: 3px;
+            width: 0%;
+            background: #fff;
+            position: absolute;
+            top: 100%;
+            left: 0px;
+            transition: 0.5s;
+    }
+    .navbar ul li:hover:before{
+        width: 50%;
+    }
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        color: #fff;
+    }
+     ul li a {
+        color: aliceblue;
+        margin: 20px;
+        text-decoration: none;
+
+    }
+    
+    img[alt="img-1"]{
+        margin-left:520px;
+        width: 45%;
+        height: 250px;
+        
+        
+    }
+    img[alt="img-2"]{
+        width: 50px;
+        margin-left: auto;
+        margin-right:auto;
+        display: block;
+    }img[alt="img-3"]{
+        width: 50px;
+        margin-left: auto;
+        margin-right:auto;
+        display: block;
+    }img[alt="img-4"]{
+        width: 50px;
+        margin-left: auto;
+        margin-right:auto;
+        display: block;
+    }img[alt="img-5"]{
+        width: 50px;
+        margin-left: auto;
+        margin-right:auto;
+        display: block;
+    }
+    .img-container2 p{
+        text-align: center;
+        color: #fff;
+    }
+      .img-container2 { width: 90%;
+        height: 200px;
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+        margin-left: 300px;
+    }
+    
+    .img-container3{
+               width: 90%;
+               height: 200px;
+               display: flex;
+               justify-content: center;
+               margin-left: 300px;
+    }
+    .img-container3 p {
+        text-align: center;
+        color: #fff;
+    }
+
+    .p1{
+        text-align: center;
+        color: #fff;
+        margin-left: 500px;
+    }
+    button{
+        text-align: center;
+        width: 190px;
+        height: 40px;
+        border-radius: 20px;
+        background-color:hsl(176,68%,64%);
+        border:hsl(176,68%,64%);
+        color:#fff;
+        cursor:pointer;
+
+    }
+    
+    .box1{
+        width: 60%;
+        height: 200px;
+        margin: 20px;
+        
+    }
+    .box2{
+        width: 60%;
+        height: 200px;
+        margin: 20px;
+        margin-top: 2px;
+        
+    }
+    .box3{
+        width: 60%;
+        height: 200px;
+        margin: 20px;
+        
+    }
+    .box4{
+        width: 60%;
+        height: 200px;
+        margin-top: 11px;
+        margin: 20px;
+        
+    }
+    .p1 {
+    
+        width: 50%;
+        height:300px ;
+    
+        
+
+    }
+    .wrapper{
+        width: 80%;
+        height: 320px;
+        display: flex;
+        margin: 50px;
+        background-color: hsl(218,28%,13%);
+        margin-left: 300px;
+    
+
+
+    }
+    img[alt="img-6"]{
+      width: 55%;
+      height: 290px;
+
+    }
+    .text1{
+        height: 200px;
+        width: 100%;
+        float: left;
+        margin: 50px;
+        
+        
+    }
+    .text1 p{
+        color:#fff;
+        font-size: 14px;
+    }
+    
+        
+    .p{   color: #fff;
+    }
+    img[alt="img-7"]{
+        width: 70px;
+        height: 70px;
+        margin-left: 300px;
+    }
+    img[alt="img-8"]{
+        width: 75px;
+        height: 70px;
+        border-radius: 45%;
+    }
+    img[alt="img-9"]{
+        width: 75px;
+        height: 70px;
+        border-radius: 45%;
+    }
+    img[alt="img-10"]{
+        width: 75px;
+        height: 70px;
+        border-radius: 45%;
+    }
+    .img-pp .pt{
+        width: 90%;
+        height: 85px;
+        margin-left: 5px;
+        color: #fff;
+    }
+    .text{
+        width: 200px;
+        height: 80px;
+         color: #fff;
+        
+    }
+    .pro{
+        display: flex;
+    }
+    .overlay-container1{
+        width: 50%;
+        height: 210px;
+        border:   hsl(219,30%,18%);;
+        background-color: hsl(219,30%,18%);
+        box-shadow:3px 3px 8px 4px hsl(219, 28%, 15%);
+        margin: 20px;
+
+    }
+    .overlay-container2{
+        width: 50%;
+        height: 210px;
+        border:  hsl(219,30%,18%);
+        background-color: hsl(219,30%,18%);
+        box-shadow:3px 3px 8px 4px hsl(219, 28%, 15%);
+        margin: 15px;
+    }
+    .overlay-container3{
+        width: 50%;
+        height: 210px;
+        border:  hsl(219,30%,18%);
+        background-color: hsl(219, 30%, 18%);
+        box-shadow:3px 3px 8px 4px hsl(219, 28%, 15%);
+        margin: 15px;
+        
+    }
+    .overlay-containers{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 300px;
+        margin-right: px;
+        align-items: center;
+        
+       
+        
+    }
+    .login{
+        width: 150%;
+        height: 200px;
+        margin-top: 100px;
+        margin-left: 75px;
+        background-color: hsl(217,28%,15%);
+        box-shadow: 3px 3px 8px 4px hsl(215, 28%, 15%);
+    }
+    input{
+        width: 50%;
+        height: 25px;
+        border-radius: 15px;
+        margin-left: 100px;
+        border: #fff;
+    }
+    h1{
+        text-align: center;
+        color: #fff;
+    }
+    .login p{
+        text-align: center;
+        color: #fff;
+    }
+    .submit{
+        width: 20%;
+        height:33px ;
+        margin-left: 100px;
+        background-color:hsl(198,60%,50%);
+        border:hsl(198,60%,50%);
+        color:#fff;
+        cursor: pointer;
+    }
+    .container-color{
+        width:165% ;
+        height: 380px;
+        background-color: hsl(216,53%,9%);
+        
+        
+    }
+    .cont1{
+        width: 100%;
+        height: 156px;
+        display: flex;
+        justify-content: space-between;
+        
+       
+        
+
+    }
+    i{
+        margin-top: 20px;
+        color: #fff;
+        width: 50px;
+        height: 40px;
+    }
+    .pi a{
+       color:#fff;
+    }
+    .container-color i{
+        color: #fff;
+    }
+    .location{
+        width: 35%;
+        height: 150px;
+        
+    } 
+    .location p{
+        text-align: left;
+        
+        margin-left: 20px;
+        
+    }
+    .contact {
+        width: 20%;
+        height: 150px;
+        
+    } 
+    .about-us{
+        width: 70px;
+        height: 150px;
+        margin-top: 15px;
+        
+    }
+    .contact-us{
+        width: 80px;
+        height: 150px;
+        margin-top: 15px;
+        
+    }
+    .social-media-links{
+        width: 170px;
+        height: 35px;
+        margin-top: 15px;
+        
+    }
+    .lg{
+        width: 91.2%;
+        height: 100px;
+        margin-left: 75px;
+        background-color: hsl(215, 28%, 15%);
+        box-shadow:3px 3px 8px 4px hsl(215, 28%, 15%);
+
+    }
+    .container-color p{
+        color: #fff;
+    }
+    
+
+    
+
+</style>
+<body>
+    
+        <div class="navbar">
+            <div class="logo">
+                <i class='bx bxs-layer'></i>
+                <p>Fylo</p>
+            </div>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+           
+        </div>
+        <div class="img-container1">
+            <img src="C:\Users\hp\Pictures\Saved Pictures\IMG-20240522-WA0045.jpg" alt="img-1">
+        </div>
+        <div class="p1">
+            <p><strong>All your files in one secure location, accessible anywhere.</strong></p>
+           <p>Fylo stores all your most important files in one secure location.Access them wherever
+            you need, share and collaborate with friends,family and co-workers.
+           </p>
+           <a href="#"><button>Get Started</button></a>
+        </div>
+        <div class="img-container2">
+            <div class="box1">
+                <img src="C:\Users\hp\Pictures\Saved Pictures\icon-access-anywhere.svg" alt="img-2">
+                <p><strong>Access your files, anywhere</strong></p>
+                <p>The ability to use a smartphone, tablet, or computer to access your account means your
+                    files follow you everywhere.
+                </p>
+            </div>
+            <div class="box2">
+                <img src="C:\Users\hp\Pictures\Saved Pictures\icon-security.svg" alt="img-3">
+                <p><strong>Security you can trust</strong></p>
+                <p>2-factor authentication and user controlled encryption are just a couple of the security 
+                    features we allow to help secure your files.
+                </p>
+            </div>
+            </div>
+            <div class="img-container3">
+            <div class="box3">
+                <img src="C:\Users\hp\Pictures\Saved Pictures\icon-collaboration.svg" alt="img-4">
+                <p><strong>Real-time collaboration</strong></p>
+                <p>Securely share files and folders with friends , family and colleagues for live collaboration
+                    No email attachments required.
+                </p> 
+            </div>
+            <div class="box4">
+                <img src="C:\Users\hp\Pictures\Saved Pictures\icon-any-file.svg" alt="img-5">
+                <p><strong>Store any type of file</strong></p>
+                <p>Whether you're sharing holidays photos or work documents. Fylo has you covered allowing for all
+                 file types to be securely stored and shared.
+                </p>
+            </div>
+        </div>
+        <div class="img-container4">
+            <div class="wrapper">
+                
+                    <img src="C:\Users\hp\Pictures\Saved Pictures\IMG-20240522-WA0046.jpg" alt="img-6">
+                
+                <div class="text1">
+                    
+                    <p><strong>Stay productive, wherever you are</strong></p>
+                    <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your
+                        file storage needs. </p>
+                   <p>Securely share files and folders with friends, family and colleagues for live collaboration.
+                    No email attachments required.
+                   </p>
+                    <p class="pi"><a href="#"   >See how Fylo works <i class='bx bxs-analyse'></i><strong></strong></a></p>
+                    
+                </div>
+                   
+                </div>   </div>
+    <div class="ov-img">
+        <div class="img-pp">
+            <img src="C:\Users\hp\Pictures\Saved Pictures\bg-quotes.png" alt="img-7">
+            <div class="overlay-containers">
+                <div class="overlay-container1">
+                    <p class="pt">Fylo has improved our team productivity by an order of magnitude. Since making the switch pur team has become a well-oiled collaboration machine.</p>
+                    <div class="pro">
+                    <div class="profile">
+                        <img src="C:\Users\hp\Pictures\Saved Pictures\profile-1.jpg" alt="img-8">
+                    </div>
+                    <div class="text">
+                        <p><strong>Satish Patel</strong></p>
+                        <p>Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+                <div class="overlay-container2">
+                    <p class="pt">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                    <div class="pro">
+                    <div class="profile">
+                        <img src="C:\Users\hp\Pictures\Saved Pictures\profile-2.jpg" alt="img-9">
+                    </div>
+                    <div class="text">
+                        <p><strong>Bruce McKenzie</strong></p>
+                        <p>Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+                </div>
+                <div class="overlay-container3">
+                    <p class="pt">Fylo has improved our team productivity by an order of magnitude. Since making the switch pur team has become a well-oiled collaboration machine.</p>
+                    <div class="pro">
+                    <div class="profile">
+                        <img src="C:\Users\hp\Pictures\Saved Pictures\profile-3.jpg" alt="img-10">
+                    </div>
+                    <div class="text">
+                        <p><strong>Iva Boyd</strong></p>
+                        <p>Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <div class="login">
+        <h1>Get early access today</h1>
+        <p>It only takes a minute to sign up our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you. </p>
+        <label for="email"></label>
+        <input type="text" id="email" placeholder="jonhnappleseed#mail.com" required>
+        <a href="#"><button class="submit">Get Started</button></a>
+    </div>
+    <div class="container-color">
+       <div class="lg"></div>
+        <p><strong><i class='bx bxs-layer'></i>Fylo</strong></p>
+        <div class="cont1">
+        <div class="location">
+            <p class="pf"><i class='bx bxs-edit-location'></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum repudiandae deserunt ratione quo sapiente sit harum fugit repellendus inventore magni architecto, 
+                quaerat animi laudantium dolores iure quasi eveniet. Ipsam.</p>
+        </div>
+        <div class="contact">
+            <p class="pf1"><i class='bx bx-phone-call'></i>+1-543-123-4567</p>
+            <p class="pf2"> <i class='bx bxl-gmail' ></i> example@fylo.com</p>
+        </div>
+        <div class="about-us">
+            <p class="pf3">
+                <p>About Us</p>
+                <p>Jobs</p>
+                <p>Press</p>
+                <p>Blog</p>
+            </p>
+        </div>
+        <div class="contact-us">
+            <p class="pf4">
+                <p>Contact Us</p>
+                <p>Terms</p>
+                <p>Privacy</p>
+                 </p>
+        </div>
+        <div class="social-media-links">
+            <i class='bx bxl-facebook' ></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-instagram' ></i>
+        </div>
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>

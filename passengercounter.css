@@ -1,0 +1,46 @@
+.myContainer{
+    width: 40%;
+    height: 500px;
+    background-color: rgb(69, 133, 43);
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: -3px -3px 8px 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    color: #000;
+    font-size: 37px;
+}
+#increment-btn{
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    background: rgb(77, 3, 3);
+    color: #fff;
+    margin-left: 35%;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+#save-btn{
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    background: rgb(41, 136, 12);
+    color: #fff;
+    margin-left: 35%;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 15px;   
+}
